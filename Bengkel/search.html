@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Find Your Bengkelo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link 
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-monserrat/6.3.0/css/all.min.css"/>
+    <link rel="stylesheet" href="styleSearch.css" />
+    <style>
+        .bg-color {
+          background-color: rgba(234, 144, 108);}
+      </style>
+      <style>
+        .bg-color2 {
+            background-color: rgba(252, 252, 252);}
+    </style>
+    <style>
+      body, h1, h2, h3, h4, h5, h6, p, a, button, input, select, textarea, .btn, .navbar, .dropdown-menu {
+   font-family: "Montserrat", sans-serif;}
+ </style>
+</head>
+<body class="bg-color">
+    <div class="container border mb-4 mt-4 rounded-3 shadow bg-color2">
+      <!--Search-->
+      <nav class="d-md-flex p-3">
+        <div><h1>Bengkelo</h1></div>
+        <!--Search bar start-->
+        <div class="search-bar ms-auto my-auto">
+          <!--Dropdown start-->
+          <div class="dropdown">
+            <div id="drop-text" class="dropdown-text">
+              <span id="span">Everything</span>
+              <i id="icon" class="fa-solid fa-chevron-down"></i>
+            </div>
+            <ul id="list" class="dropdown-list ms-auto my-auto">
+              <li class="dropdown-list-item">Everything</li>
+              <li class="dropdown-list-item">Bengkel Motor</li>
+              <li class="dropdown-list-item">Bengkel Mobil</li>
+              <li class="dropdown-list-item">Buka 24 Jam</li>
+            </ul>
+          </div>
+
+          
+          <!--Dropdown end-->
+
+          <!--Search box end-->
+          <div class="search-box">
+            <input type="text" id="search.input" placeholder="Search Anything...">
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </div>
+        </div>
+        <!--Search bar End-->
+      </nav>
+    </div>
+    <script src="javaScript/search.js"></script>
+  </body>
+</html>
