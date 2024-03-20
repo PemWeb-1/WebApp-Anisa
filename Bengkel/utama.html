@@ -27,6 +27,15 @@
         }
         .btn:hover {
             background-color: rgba(135, 16, 15);}
+        .chat-color {
+          color: rgba(179, 19, 18); outline: 0; border: 0;
+        }
+        .save-color {
+          border: 0;
+        }
+        .close-color {
+          border: 0;
+        }
     </style>
     <style>
          body, h1, h2, h3, h4, h5, h6, p, a, button, input, select, textarea, .btn, .navbar, .dropdown-menu {
@@ -153,7 +162,7 @@
           </div>
         </div>
         <!--Modal-->
-        <button type="button" class="btn btnModal" data-bs-toggle="modal"></button>
+        <button type="button" class="btn d-none btnModal" data-bs-toggle="modal" data-bs-target="#exampleModal">Launch demo modal</button>
 
 <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
   <div class="modal-dialog modal-xl">
@@ -167,14 +176,14 @@
         <div class="col-md-6 col-12">
           <div class="modalDeskripsi"></div>
           <div class="d-md-flex" style="color: rgba(252, 252, 252);">
-            <a href="" target="blank" class="btn btn-sm btn-warning d-block btnChat" class="text text-colorD" style="color: rgba(252, 252, 252);">Chat Owner</a>
+            <a href="" target="blank" class="btn btn-sm btn-warning d-block chat-color btnChat" class="text text-colorD" style="color: rgba(252, 252, 252);">Chat Owner</a>
             <span class="ms-auto text-color fw-bold d-block text-center modalHarga">$$$$</span>
           </div>
         </div>
       </div>
       <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
+        <button type="button" class="btn close-color btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn save-color btn-primary">Save changes</button>
       </div>
     </div>
   </div>

@@ -3,6 +3,7 @@
   --blue: #9ab3f5;
   --purple: #9a1663;
   --white: #ffffff;
+  --red: rgba(179, 19, 18);
 
   --shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
 }
@@ -34,7 +35,7 @@ body {
   position: relative;
   width: 280px;
   border-radius: 50px;
-  background-color: var(--purple);
+  background-color: var(--red);
   border: 1px solid var(--white);
   box-shadow: var(--shadow);
   cursor: pointer;
@@ -75,7 +76,7 @@ body {
 
 .dropdown-list-item:hover {
   margin-left: 0.5rem;
-  color: var(--purple);
+  color: var(--red);
 }
 
 #list.show {
@@ -87,7 +88,7 @@ body {
   align-items: center;
   padding-right: 1rem;
   width: 100%;
-  color: var(--purple);
+  color: var(--red);
 }
 
 .search-box input {
@@ -108,5 +109,5 @@ body {
 .search-box input::placeholder {
   font-size: 1rem;
   font-weight: 500;
-  color: var(--purple);
+  color: var(--red);
 }
