@@ -1,0 +1,9 @@
+.search-btn {
+    width: 20px;
+    height: 20px;
+
+    font-size: 25px;
+    background-color: white;
+    color: rgba(179, 19, 18);
+    border: none;
+}
