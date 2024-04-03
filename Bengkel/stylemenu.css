@@ -1,9 +1,10 @@
 .search-btn {
-    width: 20px;
-    height: 20px;
-
-    font-size: 25px;
+    width: 30px;
+    height: 30px;
+    padding: 1px;
+    font-size: 20px;
     background-color: white;
-    color: rgba(179, 19, 18);
+
     border: none;
+    cursor: pointer;
 }

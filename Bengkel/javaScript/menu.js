@@ -9,3 +9,8 @@ buttons.forEach((button, index) => {
         markers[index].style.width = '100%';
     });
 });
+document.querySelectorAll('.btnSearch').forEach(item => {
+    item.addEventListener('click', (e) => {
+      item.setAttribute('target', 'search.html8_self'); 
+    });
+  });
